@@ -12,9 +12,9 @@ export default function Footer() {
     return (
         <section className="py-16">
             <div className="container">
-                <div className="flex flex-col items-center gap-6 ">
+                <div className="flex flex-col md:flex-row md:justify-between items-center gap-6 ">
                     <div>
-                        <Image src={logoImage} className='lg:w-[14vw] sm:w-[44vw]' alt="Layers Logo"/>
+                        <Image src={logoImage} className='lg:w-[10vw] sm:w-[44vw]' alt="Tnent Store Logo"/>
                     </div>
                     <div>
                         <nav className="flex gap-6">

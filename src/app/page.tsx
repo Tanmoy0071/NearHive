@@ -7,6 +7,7 @@ import Integrations from '@/sections/Integrations'
 import Faqs from '@/sections/Faqs'
 import Footer from '@/sections/Footer'
 import LogoTicker from '@/sections/LogoTicker'
+import CallToAction from '@/sections/CallToAction'
 
 
 export default function page() {
@@ -19,6 +20,7 @@ export default function page() {
       <Integrations/>
       <LogoTicker/>
       <Faqs/>
+      <CallToAction/>
       <Footer/>
     </>
   )

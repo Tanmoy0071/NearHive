@@ -11,7 +11,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
     title: "Tnent Store - Beyond Ecommerce",
-    description: "Everything you need in One App",
+    description: "Everything you need in one app.",
 };
 
 export default function RootLayout({
@@ -21,6 +21,11 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
+            <head>
+                <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+        /></head>
             <body className={`${inter.variable} font-sans antialiased bg-neutral-950 text-white`}>
                 {children}
             </body>

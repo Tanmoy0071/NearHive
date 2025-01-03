@@ -3,9 +3,9 @@ import logoImage from '@/assets/images/Logo for website.png';
 import Image from "next/image";
 
 const footerLinks = [
-    { href: "#", label: "Contact" },
-    { href: "#", label: "Privacy Policy" },
-    { href: "#", label: "Terms & Conditions" },
+    { href: "/contact", label: "Contact" },
+    { href: "/privacy", label: "Privacy Policy" },
+    { href: "/legals", label: "Legals" },
 ];
 
 export default function Footer() {

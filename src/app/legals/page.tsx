@@ -27,7 +27,7 @@ function Legals() {
             </Link>
           </b>{" "}
           &nbsp;website (&ldquo;website&ldquo;, &ldquo;service&ldquo;) operated by{" "}
-          <b>TNENNT TECHNOLOGIES PRIVATE LIMITED</b> ("us", &apos;we", "our").
+          <b>TNENNT TECHNOLOGIES PRIVATE LIMITED</b> (&ldquo;us&ldquo;, &ldquo;we&ldquo;, &ldquo;our&ldquo;).
         </p>
         <h2 className="text-[#a3e635] text-2xl sm:text-3xl font-bold mb-4">
           Conditions of use

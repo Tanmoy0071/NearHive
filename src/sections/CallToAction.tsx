@@ -11,11 +11,9 @@ export default function CallToAction() {
         animation.current = animate(
             scope.current,
             {x: "-50%"},
-            {duration:30, ease: "linear", repeat: Infinity}
+            {duration: 30, ease: "linear", repeat: Infinity}
         )
-        
-    },[]);
-
+    }, [animate, scope]);
     useEffect(() =>{
         if(animation.current){
             if(isHovered){

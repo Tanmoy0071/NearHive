@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 function Legals() {
   return (
@@ -14,29 +15,28 @@ function Legals() {
         </h2>
 
         <p className="mb-6">
-          Please read these terms and conditions ("terms and conditions",
-          "terms") carefully before using{" "}
+          Please read these terms and conditions (&ldquo;terms and conditions&ldquo;,
+            &ldquo;terms&ldquo;) carefully before using{" "}
           <b>
-            <a
+            <Link
               target="blank"
               className="text-bold underline"
               href="/"
             >
               www.tnentstore.com
-            </a>
+            </Link>
           </b>{" "}
-          &nbsp;website ("website", "service") operated by{" "}
-          <b>TNENNT TECHNOLOGIES PRIVATE LIMITED</b> ("us", 'we", "our").
+          &nbsp;website (&ldquo;website&ldquo;, &ldquo;service&ldquo;) operated by{" "}
+          <b>TNENNT TECHNOLOGIES PRIVATE LIMITED</b> ("us", &apos;we", "our").
         </p>
-
         <h2 className="text-[#a3e635] text-2xl sm:text-3xl font-bold mb-4">
           Conditions of use
         </h2>
 
-        <p className=" mb-6">
+        <p className="mb-6">
         By using our website and availing the Services, you agree that you have read and accepted these Terms
-(including the <a href="/privacy" className="text-bold underline" target="blank">
-  Privacy policy</a>). We reserve the right to modify these Terms at any time and without
+(including the <Link href="/privacy" className="text-bold underline" target="blank">
+  Privacy policy</Link>). We reserve the right to modify these Terms at any time and without
 assigning any reason. It is your responsibility to periodically review these Terms to stay informed of
 updates.
         </p>
@@ -44,8 +44,8 @@ updates.
         {/* <h2 className="text-2xl sm:text-3xl font-bold mb-4">Privacy Policy</h2>
 
         <p className="text-gray-800 mb-6">
-          Before you continue using our website, we advise you to read our <a href="https://tnentstore.com/privacy" className="text-red-600" target="blank">
-          Privacy policy</a> regarding our user data
+          Before you continue using our website, we advise you to read our <Link href="https://tnentstore.com/privacy" className="text-red-600" target="blank">
+          Privacy policy</Link> regarding our user data
           collection. It will help you better understand our practices.
         </p> */}
 
@@ -74,7 +74,7 @@ updates.
           licensors including all copyrights, trade secrets, trademarks,
           patents, and other intellectual property. You also agree that you will
           not reproduce or redistribute the <b>TNENNT TECHNOLOGIES PRIVATE
-          LIMITED's</b> intellectual property in any way, including electronic,
+          LIMITED&apos;s</b> intellectual property in any way, including electronic,
           digital, or new trademark registrations. You grant <b>TNENNT TECHNOLOGIES PRIVATE LIMITED</b> a royalty-free and non-exclusive license to display,
           use, copy, transmit, and broadcast the content you upload and publish.
           For issues regarding intellectual property claims, you should contact
@@ -99,7 +99,7 @@ updates.
         <h2 className="text-[#a3e635] text-2xl sm:text-3xl font-bold mb-4">Delete Account</h2>
 
         <p className="mb-6">
-        For the deletion of your account, please <a href="/deleteaccount" target="blank" className="text-bold underline">click here</a>
+        For the deletion of your account, please <Link href="/deleteaccount" target="blank" className="text-bold underline">click here</Link>
         </p>
 
 
@@ -144,7 +144,7 @@ updates.
           following additional terms and conditions of sale:<br></br>
           <br></br>• You may not order or obtain goods, digital products or
           information from this Website if you: (i) are prohibited from
-          accessing or using this Website or any of this Website's contents,
+          accessing or using this Website or any of this Website&apos;s contents,
           goods, digital products or information by applicable law or (ii) you
           are outside the geographic region where the goods, digital products or
           information are available for purchase;<br></br>
@@ -210,8 +210,8 @@ updates.
 
         <h2 className="text-[#a3e635] text-2xl sm:text-3xl font-bold mb-4">Refund Policy</h2>
         <p className="mb-6">
-          For Refund policy, please <a href="/refundpolicy" className="text-bold underline" target="blank">
-          click here</a>
+          For Refund policy, please <Link href="/refundpolicy" className="text-bold underline" target="blank">
+          click here</Link>
         </p>
 
         <h2 className="text-[#a3e635] text-2xl sm:text-3xl font-bold mb-4">Indemnification</h2>
@@ -243,13 +243,13 @@ updates.
         </h2>
 
         <p className="text-gray-800 mb-6">
-          Please Contact us at <a href="https://tnentstore.com/contactus" className="text-red-600" target="blank">this link</a>
+          Please Contact us at <Link href="https://tnentstore.com/contactus" className="text-red-600" target="blank">this link</Link>
         </p> */}
 
         <div className="mt-8 border-t pt-6">
   <p className="text-sm ">
     For any questions or concerns regarding these Terms of Service, please contact us at
-    <a href="mailto:legal@tnentstore.com" className="font-bold"> legal@tnentstore.com</a>.
+    <Link href="mailto:legal@tnentstore.com" className="font-bold"> legal@tnentstore.com</Link>.
   </p>
 </div>
       </div>

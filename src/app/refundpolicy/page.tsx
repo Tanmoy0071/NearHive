@@ -5,7 +5,7 @@ const Refundpolicy = () => {
     <>
       <div className="min-h-screen flex justify-center items-start py-8 px-4 sm:px-6 lg:px-8">
         <div className="shadow-md rounded-lg max-w-3xl w-full p-6 sm:p-8">
-          <h1 className="text-3xl text-[#a3e635] sm:text-4xl font-bold mb-10">
+          <h1 className="text-3xl text-[#F1B729] font-mine sm:text-4xl font-bold mb-10">
             Refund and Cancellation Policy
           </h1>
 

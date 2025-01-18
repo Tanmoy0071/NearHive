@@ -112,7 +112,7 @@ export default function Hero() {
                     </div> */}
                 </div>
                 <h1 className="text-6xl md:text-7xl font-medium text-center mt-12">
-                    Apno Ka <span className="text-[#a3e635]">Online</span><br/>Store, Apno Ke liye
+                    Apno Ka <span className="text-[#F1B729] font-mine">Online</span><br/>Store, Apno Ke liye
                 </h1>
                 <p className="text-center text-xl text-white/50 mt-12 max-w-2xl mx-auto">
                 Our E-store platform is a lifeline for small stores, making it simple to sell online and reach endless possibilities. It&apos;s your turn to own the <span className="text-white">spotlight</span>.{" "}

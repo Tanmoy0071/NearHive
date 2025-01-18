@@ -31,7 +31,7 @@ export default function Introduction() {
             <div className="container">
                 <div className="sticky top-20">
                     <div className="flex justify-center">
-                        <Tag>Introducing Tnent Store</Tag>
+                        <Tag>Introducing NearHive</Tag>
                     </div>
                     <div className="text-4xl md:text-6xl lg:text-7xl text-center font-medium mt-10">
                         <span>Your ambitions deserve better.</span>{" "}
@@ -47,8 +47,8 @@ export default function Introduction() {
                                 </span>
                             ))}
                         </span>
-                        <span className="text-lime-400 block">
-                            That&apos;s why we built Tnent Store.
+                        <span className="text-[#F1B729] block">
+                            That&apos;s why we built <span className="font-mine">NearHive</span>
                         </span>
                     </div>
                 </div>

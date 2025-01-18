@@ -18,7 +18,7 @@ export default function page() {
       <Introduction/>
       <Features/>
       <Integrations/>
-      <LogoTicker/>
+      {/* <LogoTicker/> */}
       <Faqs/>
       <CallToAction/>
       <Footer/>

@@ -32,7 +32,7 @@ export default function Integrations() {
             <div className="grid lg:grid-cols-2 items-center lg:gap-16">
                 <div>
                     <Tag>Categories</Tag>
-                    <h2 className="text-6xl font-medium mt-6">Success starts{" "} <span className="text-lime-400"> here.</span></h2>
+                    <h2 className="text-6xl font-medium mt-6">Success starts{" "} <span className="text-[#F1B729] font-mine"> here.</span></h2>
                     <p className="text-white/50 mt-4 text-lg">Get the platform that&apos;s built for your growth. Whether it&apos;s tracking performance, generating promotions, or building your community, everything you need to succeed is in one place.</p>
                 </div>
                 <div>

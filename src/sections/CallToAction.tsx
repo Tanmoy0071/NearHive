@@ -34,8 +34,8 @@ export default function CallToAction() {
         onMouseLeave={() => setIsHovered(false)}>
             {Array.from({length:10}).map((_, i) =>(
            <div key={i} className="flex items-center gap-16">
-            <span className="text-lime-400 text-7xl">&#10038;</span>
-            <span className="group-hover:text-lime-400">Tnent store</span>
+            <span className="text-[#F1B729] text-7xl">&#10038;</span>
+            <span className="group-hover:text-[#F1B729] font-mine">NearHive</span>
            </div>
     ))}
    </motion.div>

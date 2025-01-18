@@ -5,12 +5,12 @@ function Legals() {
   return (
     <div className="min-h-screen flex justify-center items-start py-8 px-4 sm:px-6 lg:px-8">
       <div className="shadow-md rounded-lg max-w-3xl w-full p-6 sm:p-8">
-        <h1 className="text-[#a3e635] text-3xl sm:text-4xl font-bold mb-2">
+        <h1 className="text-[#F1B729] font-mine text-3xl sm:text-4xl font-bold mb-2">
           Terms of Service
         </h1>
         <p className="mb-6">Last updated on October 16, 2024</p>
 
-        <h2 className="text-[#a3e635] text-2xl sm:text-3xl font-bold mb-4">
+        <h2 className="text-[#F1B729] text-2xl sm:text-3xl font-bold mb-4">
           Acceptance of terms
         </h2>
 
@@ -29,7 +29,7 @@ function Legals() {
           &nbsp;website (&ldquo;website&ldquo;, &ldquo;service&ldquo;) operated by{" "}
           <b>TNENNT TECHNOLOGIES PRIVATE LIMITED</b> (&ldquo;us&ldquo;, &ldquo;we&ldquo;, &ldquo;our&ldquo;).
         </p>
-        <h2 className="text-[#a3e635] text-2xl sm:text-3xl font-bold mb-4">
+        <h2 className="text-[#F1B729] text-2xl sm:text-3xl font-bold mb-4">
           Conditions of use
         </h2>
 
@@ -51,7 +51,7 @@ updates.
 
         <p className="mb-6">The use of this website or availing of our Services is subject to the following terms of use:</p>
 
-        <h2 className="text-[#a3e635] text-2xl sm:text-3xl font-bold mb-4">Age restriction</h2>
+        <h2 className="text-[#F1B729] text-2xl sm:text-3xl font-bold mb-4">Age restriction</h2>
 
         <p className=" mb-6">
           You should be at least 18 (eighteen) years of age before you can use
@@ -63,7 +63,7 @@ updates.
           service usage of below 18 (eighteen) years old users.
         </p>
 
-        <h2 className="text-[#a3e635] text-2xl sm:text-3xl font-bold mb-4">
+        <h2 className="text-[#F1B729] text-2xl sm:text-3xl font-bold mb-4">
           Intellectual property
         </h2>
 
@@ -81,7 +81,7 @@ updates.
           the company in order to come to an agreement.
         </p>
 
-        <h2 className="text-[#a3e635] text-2xl sm:text-3xl font-bold mb-4">User accounts</h2>
+        <h2 className="text-[#F1B729] text-2xl sm:text-3xl font-bold mb-4">User accounts</h2>
 
         <p className=" mb-6">
           As a user of this website, you may be asked to register with us and
@@ -96,14 +96,14 @@ updates.
           discretion.
         </p>
 
-        <h2 className="text-[#a3e635] text-2xl sm:text-3xl font-bold mb-4">Delete Account</h2>
+        <h2 className="text-[#F1B729] text-2xl sm:text-3xl font-bold mb-4">Delete Account</h2>
 
         <p className="mb-6">
         For the deletion of your account, please <Link href="/deleteaccount" target="blank" className="text-bold underline">click here</Link>
         </p>
 
 
-        <h2 className="text-[#a3e635] text-2xl sm:text-3xl font-bold mb-4">Applicable law</h2>
+        <h2 className="text-[#F1B729] text-2xl sm:text-3xl font-bold mb-4">Applicable law</h2>
 
         <p className=" mb-6">
           By using this website, you agree to the Indian laws, without regard to
@@ -112,7 +112,7 @@ updates.
           PRIVATE LIMITED and you, or its business partners and associates.
         </p>
 
-        <h2 className="text-[#a3e635] text-2xl sm:text-3xl font-bold mb-4">Disputes</h2>
+        <h2 className="text-[#F1B729] text-2xl sm:text-3xl font-bold mb-4">Disputes</h2>
 
         <p className="mb-6">
           Any dispute related in any way to your use of this website/service or
@@ -121,7 +121,7 @@ updates.
           such courts.
         </p>
 
-        <h2 className="text-[#a3e635] text-2xl sm:text-3xl font-bold mb-4">
+        <h2 className="text-[#F1B729] text-2xl sm:text-3xl font-bold mb-4">
           Third-Party Links and Content
         </h2>
 
@@ -136,7 +136,7 @@ updates.
           are subject to any terms and conditions of such third-party sites.
         </p>
 
-        <h2 className="text-[#a3e635] text-2xl sm:text-3xl font-bold mb-4">Online Orders</h2>
+        <h2 className="text-[#F1B729] text-2xl sm:text-3xl font-bold mb-4">Online Orders</h2>
 
         <p className="mb-6">
           All orders, purchases or transactions for the sales of goods, digital
@@ -173,7 +173,7 @@ updates.
           any time and to cancel any orders arising from such occurrences.
         </p>
 
-        <h2 className="text-[#a3e635] text-2xl sm:text-3xl font-bold mb-4">
+        <h2 className="text-[#F1B729] text-2xl sm:text-3xl font-bold mb-4">
           Shipments & Delivery
         </h2>
 
@@ -187,7 +187,7 @@ updates.
           liable for any delays in shipments.
         </p>
 
-        <h2 className="text-[#a3e635] text-2xl sm:text-3xl font-bold mb-4">
+        <h2 className="text-[#F1B729] text-2xl sm:text-3xl font-bold mb-4">
           Payment & Charges
         </h2>
 
@@ -200,7 +200,7 @@ updates.
           to refuse any order placed through the Website/Service.
         </p>
 
-        <h2 className="text-[#a3e635] text-2xl sm:text-3xl font-bold mb-4">Exchange</h2>
+        <h2 className="text-[#F1B729] text-2xl sm:text-3xl font-bold mb-4">Exchange</h2>
 
         <p className=" mb-6">
           If you are not completely satisfied with your purchase, you may return
@@ -208,13 +208,13 @@ updates.
           unused condition, with all original tags and labels attached.
         </p>
 
-        <h2 className="text-[#a3e635] text-2xl sm:text-3xl font-bold mb-4">Refund Policy</h2>
+        <h2 className="text-[#F1B729] text-2xl sm:text-3xl font-bold mb-4">Refund Policy</h2>
         <p className="mb-6">
           For Refund policy, please <Link href="/refundpolicy" className="text-bold underline" target="blank">
           click here</Link>
         </p>
 
-        <h2 className="text-[#a3e635] text-2xl sm:text-3xl font-bold mb-4">Indemnification</h2>
+        <h2 className="text-[#F1B729] text-2xl sm:text-3xl font-bold mb-4">Indemnification</h2>
 
         <p className=" mb-6">
           You agree to indemnify <b>TNENNT TECHNOLOGIES PRIVATE LIMITED</b> and its
@@ -224,7 +224,7 @@ updates.
           counsel.
         </p>
 
-        <h2 className="text-[#a3e635] text-2xl sm:text-3xl font-bold mb-4">
+        <h2 className="text-[#F1B729] text-2xl sm:text-3xl font-bold mb-4">
           Limitation on liability
         </h2>
 

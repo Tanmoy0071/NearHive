@@ -1,7 +1,8 @@
 // import { a, section } from "framer-motion/client";
 import logoImage from '@/assets/images/Logo for website.png'; 
 import Image from "next/image";
-
+import Link from 'next/link';
+import { TransitionLink } from '@/components/utils/TransitionLink';
 const footerLinks = [
     { href: "/contact", label: "Contact" },
     { href: "/privacy", label: "Privacy Policy" },
@@ -19,7 +20,7 @@ export default function Footer() {
                     <div>
                         <nav className="flex gap-6">
                             {footerLinks.map((links, index) => (
-                                <a key={index} href={links.href} className="text-white/50 text-sm">{links.label}</a>
+                                <TransitionLink key={index} href={links.href} className="text-white/50 text-sm">{links.label}</TransitionLink>
                             ))}
                         </nav>
                     </div>

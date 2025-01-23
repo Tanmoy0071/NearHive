@@ -111,7 +111,7 @@ export default function Hero() {
                         ✨ $7.5M seed round raised
                     </div> */}
                 </div>
-                <h1 className="text-6xl md:text-7xl font-medium text-center mt-12">
+                <h1 className="text-6xl md:text-7xl font-medium text-center mt-12 text-white font-sans">
                     Apno Ka <span className="text-[#F1B729] font-mine">Online</span><br/>Store, Apno Ke liye
                 </h1>
                 <p className="text-center text-xl text-white/50 mt-12 max-w-2xl mx-auto">

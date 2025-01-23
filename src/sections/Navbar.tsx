@@ -5,11 +5,12 @@ import Button from "@/components/Button";
 import { useState } from "react"; 
 import { twMerge } from "tailwind-merge"; 
 import { AnimatePresence, motion } from "framer-motion";   
+import { TransitionLink } from "@/components/utils/TransitionLink";
 
 const navLinks = [     
     { label: "Home", href: "#" },     
     // { label: "Features", href: "#features" },     
-    { label: "Team", href: "#integrations" },     
+    { label: "Team", href: "#team" },     
     { label: "FAQs", href: "#faqs" }, 
 ];  
 
@@ -24,9 +25,9 @@ export default function Navbar() {
                         <Image src={logoImage} alt="Logo" className=" w-36 md:h-auto"/>                     
                     </div>                     
                     <div className="lg:flex justify-center items-center hidden">                         
-                        <nav className="flex gap-6 font-medium">                             
+                        <nav className="flex gap-6 ">                             
                             {navLinks.map((link) => (                                 
-                                <a href={link.href} key={link.label} className="text-white/80 hover:text-white transition-colors">                                     
+                                <a href={link.href} key={link.label} className="text-white/80 font-sans hover:text-white transition-colors">                                     
                                     {link.label}                                 
                                 </a>                             
                             ))}                         

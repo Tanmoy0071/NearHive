@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
 
+
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
@@ -16,7 +17,7 @@ const minecraftFont = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Tnent Store - Beyond Ecommerce",
+  title: "NearHive - Beyond Ecommerce",
   description: "Everything you need in one app.",
 };
 
@@ -24,7 +25,8 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en">
+    <html lang="en" className='scroll-smooth'>
+  
       <head>
         <meta
           name="viewport"

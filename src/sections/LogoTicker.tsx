@@ -3,9 +3,6 @@ import { Fragment } from "react";
 import { motion } from "framer-motion";
 import { Camera } from "lucide-react";
 import Image from "next/image";
-import { div } from "framer-motion/client";
-import Bakeryimg from '@/assets/images/Frame 624970.png'
-import Groceryimg from '@/assets/images/Frame 624969.png'
 import Subho from '@/assets/team/1.png'
 import Kunal from '@/assets/team/2.png'
 import Barnik from '@/assets/team/3.png'

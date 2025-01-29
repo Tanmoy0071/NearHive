@@ -1,11 +1,5 @@
 import Tag from "@/components/tag";
 import FeatureCard from "@/components/FeatureCard";
-import avatar1 from "@/assets/images/avatar-ashwin-santiago.jpg";
-import avatar2 from "@/assets/images/avatar-florence-shaw.jpg";
-import avatar3 from "@/assets/images/avatar-lula-meyers.jpg";
-import Image from "next/image";
-import Avatar from "@/components/Avatar";
-import frame1 from '@/assets/images/Frame 624962.png'
 
 const features = [
     "Analytics",

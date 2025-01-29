@@ -1,5 +1,5 @@
 // import { a, section } from "framer-motion/client";
-import logoImage from '@/assets/images/Logo for website.png'; 
+import logoImage from '@/assets/images/Group 1 (2).png'; 
 import Image from "next/image";
 import Link from 'next/link';
 import { TransitionLink } from '@/components/utils/TransitionLink';

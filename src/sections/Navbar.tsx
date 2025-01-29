@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image"; 
-import logoImage from '@/assets/images/Logo for website.png'; 
+import logoImage from '@/assets/images/Group 1 (2).png'; 
 import Button from "@/components/Button"; 
 import { useState } from "react"; 
 import { twMerge } from "tailwind-merge"; 
@@ -20,9 +20,9 @@ export default function Navbar() {
         <section className="py-4 lg:py-8 absolute  w-full top-0 z-50">             
             <div className="container max-w-5xl">                 
                 <div className="border border-white/15 rounded-[27px] md:rounded-full bg-neutral-950/70 backdrop-blur">                     
-                    <div className="grid grid-cols-2 lg:grid-cols-3 p-2 items-center px-4 md:pr-2 ">                     
+                    <div className="grid grid-cols-2 lg:grid-cols-3 p-3 items-center px-4 md:pr-2 ">                     
                     <div>                         
-                        <Image src={logoImage} alt="Logo" className=" w-36 md:h-auto"/>                     
+                        <Image src={logoImage} alt="Logo" className=" w-28 ml-3 md:h-auto"/>                     
                     </div>                     
                     <div className="lg:flex justify-center items-center hidden">                         
                         <nav className="flex gap-6 ">                             

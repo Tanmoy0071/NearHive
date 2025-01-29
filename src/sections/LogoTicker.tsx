@@ -6,47 +6,55 @@ import Image from "next/image";
 import { div } from "framer-motion/client";
 import Bakeryimg from '@/assets/images/Frame 624970.png'
 import Groceryimg from '@/assets/images/Frame 624969.png'
+import Subho from '@/assets/team/1.png'
+import Kunal from '@/assets/team/2.png'
+import Barnik from '@/assets/team/3.png'
+import Subhajit from '@/assets/team/4.png'
+import Pratham from '@/assets/team/5.png'
+import Agro from '@/assets/team/6.png'
+import Tanmoy from '@/assets/team/Untitled design (39).png'
+import Saurojit from '@/assets/team/Untitled design (40).png'
 
 const teamMembers = [
     { 
+        name: "Subho Singhi", 
+        role: "Video Editor",
+        image: Subho // Updated path
+    },
+    { 
         name: "Kunal Deb", 
-        role: "Jinpachi Ego",
-        image: Groceryimg // Updated path
+        role: "CEO",
+        image: Kunal  // Add actual image path
+    },
+    { 
+        name: "Barnik Deb", 
+        role: "CMO",
+        image: Barnik // Add actual image path
+    },
+    { 
+        name: "Subhajit Bhattacharjee", 
+        role: "COO",
+        image: Subhajit  // Add actual image path
+    },
+    { 
+        name: "Pratham Mazumder", 
+        role: "HR",
+        image: Pratham  // Add actual image path
+    },
+    { 
+        name: "Argajit Dutta", 
+        role: "Member",
+        image: Agro  // Add actual image path
     },
     { 
         name: "Tanmoy Chakraborty", 
-        role: "Mikage Reo",
-        image: Groceryimg  // Add actual image path
+        role: "Chief Development Officer",
+        image: Tanmoy  // Add actual image path
     },
     { 
-        name: "Subhrojyoti Sen", 
-        role: "Oliver Aiku",
-        image: Groceryimg // Add actual image path
-    },
-    { 
-        name: "David Thompson", 
-        role: "Product Manager",
-        image: Groceryimg  // Add actual image path
-    },
-    { 
-        name: "Olivia Patel", 
-        role: "Lead Engineer",
-        image: Groceryimg  // Add actual image path
-    },
-    { 
-        name: "Alex Rivera", 
-        role: "Marketing Head",
-        image: Groceryimg  // Add actual image path
-    },
-    { 
-        name: "Elena Kim", 
-        role: "Operations Director",
-        image: Groceryimg  // Add actual image path
-    },
-    { 
-        name: "Ryan Murphy", 
-        role: "Creative Lead",
-        image: Groceryimg // Add actual image path
+        name: "Saurojit Karmakar", 
+        role: "CDO",
+        image: Saurojit // Add actual image path
     }
 ];
 

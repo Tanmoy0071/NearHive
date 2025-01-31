@@ -84,7 +84,7 @@ export default function Navbar() {
                             initial={{height: 0}} 
                             animate={{height: 'auto'}} 
                             exit={{height: 0}} 
-                            className="overflow-hidden"
+                            className="overflow-hidden "
                         >                             
                             <div className="flex flex-col items-center gap-4 py-4 md:hidden bg-neutral-950">                                  
                                 {navLinks.map(link =>(                                     

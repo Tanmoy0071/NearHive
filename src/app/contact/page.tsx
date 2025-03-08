@@ -25,7 +25,7 @@ const Contactus = () => {
             <br />
             E-Mail ID:{" "}
             <b>
-              <a href="mailto:thekunaldeb@gmail.com">thekunaldeb@gmail.com</a>
+              <a href="mailto:support@nearhive.in">support@nearhive.in</a>
             </b>
           </p>
         </div>

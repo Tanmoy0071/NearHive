@@ -23,7 +23,7 @@ function Legals() {
               className="text-bold underline"
               href="/"
             >
-              www.tnentstore.com
+              www.nearhive.in
             </Link>
           </b>{" "}
           &nbsp;website (&ldquo;website&ldquo;, &ldquo;service&ldquo;) operated by{" "}
@@ -249,7 +249,7 @@ updates.
         <div className="mt-8 border-t pt-6">
   <p className="text-sm ">
     For any questions or concerns regarding these Terms of Service, please contact us at
-    <Link href="mailto:legal@tnentstore.com" className="font-bold"> legal@tnentstore.com</Link>.
+    <Link href="mailto:legal@nearhive.in" className="font-bold"> legal@nearhive.in</Link>.
   </p>
 </div>
       </div>

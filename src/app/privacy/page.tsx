@@ -98,7 +98,7 @@ You can access and update your information by contacting us.
     <h2 className="text-[#F1B729] text-2xl sm:text-3xl mt-10 font-bold mb-4">9. Contact Us</h2>
 
     <p className=" mb-6">
-    If you have any questions about this Privacy Policy, please contact us at support@tnentstore.com.
+    If you have any questions about this Privacy Policy, please contact us at support@nearhive.in.
     </p>
 
 

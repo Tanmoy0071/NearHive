@@ -10,7 +10,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-    title: "Tnent Store - Beyond Ecommerce",
+    title: "Nearhive - Beyond Ecommerce",
     description: "Everything you need in one app.",
 };
 

@@ -1,5 +1,9 @@
 import Tag from "@/components/tag";
 import FeatureCard from "@/components/FeatureCard";
+import SeamlessShopping from "@/assets/images/wmremove-transformed (1).jpeg.jpg";
+import Hyperlocal from "@/assets/images/wmremove-transformed.jpeg.jpg"
+import deliveryservice from "@/assets/images/wmremove-transformed.png"
+import Image from "next/image";
 
 const features = [
     "Analytics",
@@ -21,8 +25,12 @@ export default function Features() {
             <div className="mt-12 grid grid-cols-1 md:grid-cols-4 lg:grid-cols-3 gap-8">
                 <FeatureCard title="Hyperlocal Marketplace" description="Find stores and products near you." className="md:col-span-2 lg:col-span-1">
                 <div className="flex h-[172px] items-center justify-center bg-white rounded-lg">                         
-                                          
-                    </div>  
+  <Image 
+    src={Hyperlocal} 
+    alt="Hyperlocal marketplace" 
+    className="w-auto h-full max-w-full object-contain"
+  />                   
+</div>
                     {/* <div className="aspect-video flex items-center justify-center">
                         <Avatar className="z-40">
                             <Image src={avatar1} alt="avatar1" className="rounded-full"/>
@@ -47,7 +55,11 @@ export default function Features() {
                 <FeatureCard title="Seamless Shopping" description=" Browse and purchase items
 from any store." className="md:col-span-2 lg:col-span-1">
      <div className="flex h-[172px] items-center justify-center bg-white rounded-lg">                         
-                                          
+     <Image 
+    src={SeamlessShopping} 
+    alt="Hyperlocal marketplace" 
+    className="w-auto h-full max-w-full object-contain"
+  />                
                                           </div>  
                     {/* <div className="aspect-video flex items-center justify-center">
                         <p className="text-4xl font-extrabold text-white/20 text-center">
@@ -58,7 +70,11 @@ from any store." className="md:col-span-2 lg:col-span-1">
                 <FeatureCard title="Delivery Service" description="Convenient delivery options for
 your purchases within 20 minutes." className="md:col-span-2 md:col-start-2 lg:col-span-1">
      <div className="flex h-[172px] items-center justify-center bg-white rounded-lg">                         
-                                          
+     <Image 
+    src={deliveryservice} 
+    alt="Hyperlocal marketplace" 
+    className="w-auto h-full max-w-full object-contain"
+  />               
                                           </div>  
                     {/* <div className="aspect-video flex items-center justify-center gap-3">
                         <div className="bg-gray-300 text-black border rounded-lg border-transparent px-4 py-1">shift</div>

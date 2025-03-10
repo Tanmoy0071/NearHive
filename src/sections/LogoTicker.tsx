@@ -11,31 +11,33 @@ import Pratham from '@/assets/team/5.png'
 import Agro from '@/assets/team/6.png'
 import Tanmoy from '@/assets/team/Untitled design (39).png'
 import Saurojit from '@/assets/team/Untitled design (40).png'
+import Shubrojyoti from '@/assets/team/Untitled design (41).png'
+import Dipankar from '@/assets/team/Untitled design (42).png'
 
 const teamMembers = [
     { 
         name: "Subho Singhi", 
-        role: "Video Editor",
+        role: "Creative Head",
         image: Subho // Updated path
     },
     { 
         name: "Kunal Deb", 
-        role: "CEO",
+        role: "Chief Executive Officer",
         image: Kunal  // Add actual image path
     },
     { 
         name: "Barnik Deb", 
-        role: "CMO",
+        role: "Chief Marketing Officer",
         image: Barnik // Add actual image path
     },
     { 
         name: "Subhajit Bhattacharjee", 
-        role: "COO",
+        role: "Chief Observation Officer",
         image: Subhajit  // Add actual image path
     },
     { 
         name: "Pratham Mazumder", 
-        role: "HR",
+        role: "Human Resource",
         image: Pratham  // Add actual image path
     },
     { 
@@ -50,7 +52,22 @@ const teamMembers = [
     },
     { 
         name: "Saurojit Karmakar", 
-        role: "CDO",
+        role: "Chief Data Officer",
+        image: Saurojit // Add actual image path
+    },
+    { 
+        name: "Subhorjyoti Das", 
+        role: "Chief Technical Officer",
+        image: Shubrojyoti // Add actual image path
+    },
+    { 
+        name: "Dipankar Deb", 
+        role: "Chief Finance Officer",
+        image: Dipankar // Add actual image path
+    },
+    { 
+        name: "Soumyadeep Ghose", 
+        role: "Chief SEO Expert",
         image: Saurojit // Add actual image path
     }
 ];

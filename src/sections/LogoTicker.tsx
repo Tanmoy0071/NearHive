@@ -17,54 +17,55 @@ import Soumyadeep from '@/assets/team/Untitled design (44).png'
 
 const teamMembers = [
     { 
-        name: "Subho Singhi", 
-        role: "Creative Head",
-        image: Subho // Updated path
+        name: "Subhajit Bhattacharjee", 
+        role: "Chief Executive Officer",
+        image: Subhajit 
     },
     { 
         name: "Kunal Deb", 
-        role: "Chief Executive Officer",
-        image: Kunal  // Add actual image path
+        role: "Chief Operating Officer",
+        image: Kunal 
     },
     { 
-        name: "Barnik Deb", 
-        role: "Chief Marketing Officer",
-        image: Barnik // Add actual image path
-    },
-    { 
-        name: "Subhajit Bhattacharjee", 
-        role: "Chief Observation Officer",
-        image: Subhajit  // Add actual image path
-    },
-    { 
-        name: "Pratham Mazumder", 
-        role: "Human Resource",
-        image: Pratham  // Add actual image path
-    },
-    { 
-        name: "Argajit Dutta", 
-        role: "Member",
-        image: Agro  // Add actual image path
+        name: "Subhrojyoti Sen", 
+        role: "Chief Technical Officer",
+        image: Shubrojyoti
     },
     { 
         name: "Tanmoy Chakraborty", 
         role: "Chief Development Officer",
-        image: Tanmoy  // Add actual image path
+        image: Tanmoy 
     },
     { 
         name: "Saurojit Karmakar", 
-        role: "Chief Data Officer",
-        image: Saurojit // Add actual image path
+        role: "System Admin",
+        image: Saurojit
     },
     { 
-        name: "Subhorjyoti Das", 
-        role: "Chief Technical Officer",
-        image: Shubrojyoti // Add actual image path
+        name: "Subho Singhi", 
+        role: "Content Director",
+        image: Subho
     },
+    { 
+        name: "Barnik Deb", 
+        role: "Accountant",
+        image: Barnik
+    },
+    { 
+        name: "Pratham Mazumder", 
+        role: "Human Resource",
+        image: Pratham 
+    },
+    { 
+        name: "Argajit Dutta", 
+        role: "Middleman Manager",
+        image: Agro 
+    },
+    
     { 
         name: "Dipankar Deb", 
         role: "Chief Finance Officer",
-        image: Dipankar // Add actual image path
+        image: Dipankar
     },
     { 
         name: "Soumyadeep Ghose", 

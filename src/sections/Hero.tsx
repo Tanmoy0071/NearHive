@@ -6,7 +6,8 @@ import Image from "next/image";
 import Pointer from "@/components/pointer";
 import { motion, useAnimate } from "framer-motion";
 import { useEffect } from "react";
-import CreativeBtn2 from "@/components/Downloadbtn";
+import DownloadButton from "@/components/Downloadbtn";
+
 
 export default function Hero() {
     const [leftDesignScope, leftDesignAnimate] = useAnimate();
@@ -118,7 +119,7 @@ export default function Hero() {
                 Our E-store platform is a lifeline for small stores, making it simple to sell online and reach endless possibilities. It&apos;s your turn to own the <span className="text-white">spotlight</span>.{" "}
                 </p>
                  <div className="flex justify-center mt-7">
-                     <CreativeBtn2/>
+                     <DownloadButton/>
                 </div> 
              
             </div>

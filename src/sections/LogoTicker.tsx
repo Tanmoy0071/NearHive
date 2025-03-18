@@ -11,8 +11,9 @@ import Pratham from '@/assets/team/5.png'
 import Agro from '@/assets/team/6.png'
 import Tanmoy from '@/assets/team/Untitled design (39).png'
 import Saurojit from '@/assets/team/Untitled design (40).png'
-import Shubrojyoti from '@/assets/team/Untitled design (41).png'
+import Shubrojyoti from '@/assets/team/Untitled design (43).png'
 import Dipankar from '@/assets/team/Untitled design (42).png'
+import Soumyadeep from '@/assets/team/Untitled design (44).png'
 
 const teamMembers = [
     { 
@@ -67,8 +68,8 @@ const teamMembers = [
     },
     { 
         name: "Soumyadeep Ghose", 
-        role: "Chief SEO Expert",
-        image: Saurojit // Add actual image path
+        role: "SEO Expert",
+        image: Soumyadeep // Add actual image path
     }
 ];
 

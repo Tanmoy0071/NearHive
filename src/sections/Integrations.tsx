@@ -18,10 +18,8 @@ import IntegrationColumn from "@/components/Integrationcloumns";
 const integrations = [
     { name: "Restaurants", icon: restaurantimg, description: "Discover flavors, crafted just for you." },
     { name: "Cafe", icon: Cafeimg, description: "Your perfect brew, anytime, anywhere." },
-    { name: "Clothing", icon: Clothingimg, description: "Trendy styles, made easy with Tnent." },
     { name: "Bakery", icon: Bakeryimg, description: "Fresh treats, just a click away." },
-    { name: "Grocery", icon: Groceryimg, description: "Everyday needs, delivered by Tnent." },
-    { name: "Stationary", icon: Stationaryimg, description: "Complete your look, the Tnent way." },
+    { name: "Grocery", icon: Groceryimg, description: "Coming Soon!!" },    
 ];
 
 export type IntegrationsType = typeof integrations;

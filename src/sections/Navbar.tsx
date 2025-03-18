@@ -97,7 +97,7 @@ export default function Navbar() {
                                     </a>                                 
                                 ))}                                 
                                 {/* <Button variant="secondary" className="mt-2">Log In</Button>                                  */}
-                                <Button variant="primary" className="mt-2">Get Started</Button>                             
+                            
                             </div>                         
                         </motion.div>                     
                     )}                     

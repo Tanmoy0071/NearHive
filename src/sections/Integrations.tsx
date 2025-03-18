@@ -8,10 +8,9 @@ import Tag from "@/components/tag";
 // import githubIcon from '@/assets/images/github-logo.svg';
 import restaurantimg from '@/assets/images/Frame 624962.png'
 import Cafeimg from '@/assets/images/Frame 624963.png'
-import Clothingimg from '@/assets/images/Frame 624967.png'
 import Bakeryimg from '@/assets/images/Frame 624970.png'
 import Groceryimg from '@/assets/images/Frame 624969.png'
-import Stationaryimg from '@/assets/images/Frame 624971.png'
+
 // import Image from "next/image";
 import IntegrationColumn from "@/components/Integrationcloumns";
 

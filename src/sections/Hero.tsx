@@ -1,7 +1,7 @@
 "use client";
 
-import designExample1Image from "@/assets/images/1.png";
-import designExample2Image from "@/assets/images/2.png";
+import designExample1Image from "@/assets/images/2.svg";
+import designExample2Image from "@/assets/images/1.svg";
 import Image from "next/image";
 import Pointer from "@/components/pointer";
 import { motion, useAnimate } from "framer-motion";
@@ -67,19 +67,20 @@ export default function Hero() {
     return (
         <section className="py-24 overflow-x-clip" >
             <div className="container relative">
-                <motion.div
-                    ref={leftDesignScope}
-                    initial={{ opacity: 0, y: 100, x: -100 }}
+            <motion.div
+                    ref={rightDesignScope}
+                    initial={{ opacity: 0, y: 100, x: 100 }}
                     drag
-                    className="absolute -left-44 -top-18 hidden lg:block"
+                    className="absolute -right-24 -top-[20px] hidden lg:block"
                 >
                     <Image
-                        src={designExample2Image}
-                        className="w-[450px] rotate-[14deg]"
+                        src={designExample1Image}
+                        className="w-64"
                         alt="design example 1 image"
                         draggable="true"
                     />
-                </motion.div>
+            </motion.div>
+
                 <motion.div
                     ref={leftPointerScope}
                     initial={{ opacity: 0, y: 100, x: -200 }}
@@ -87,19 +88,22 @@ export default function Hero() {
                 >
                     <Pointer name="Andrea" />
                 </motion.div>
+
+
                 <motion.div
-                    ref={rightDesignScope}
-                    initial={{ opacity: 0, y: 100, x: 100 }}
+                    ref={leftDesignScope}
+                    initial={{ opacity: 0, y: 100, x: -100 }}
                     drag
-                    className="absolute -right-24 -top-4 hidden lg:block"
+                    className="absolute -left-28 -top-5 hidden lg:block"
                 >
                     <Image
-                        src={designExample1Image}
-                        className="w-64"
+                        src={designExample2Image}
+                        className="w-[300px] rotate-[-1deg]"
                         alt="design example 2 image"
                         draggable="true"
                     />
                 </motion.div>
+                
                 <motion.div
                     ref={rightPointerScope}
                     initial={{ opacity: 0, y: 100, x: 275 }}

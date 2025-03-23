@@ -2,16 +2,16 @@ import { useState } from 'react';
 import { getDownloadURL, ref } from 'firebase/storage';
 import { storage } from '@/app/config';
 
+
 const DownloadButton: React.FC = () => {
   const [downloading, setDownloading] = useState(false);
 
   const handleDownload = async () => {
     try {
       setDownloading(true);
-      const apkRef = ref(storage, 'NearHive.apk');
-
+      const apkRef = ref(storage, 'Apks/app-arm64-v8a-release.apk');
+  
       const downloadURL = await getDownloadURL(apkRef);
-      
       
       const link = document.createElement('a');
       link.href = downloadURL;
@@ -25,7 +25,7 @@ const DownloadButton: React.FC = () => {
     } finally {
       setDownloading(false);
     }
-  };
+  }
 
   return (
     <>

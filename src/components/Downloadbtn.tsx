@@ -30,7 +30,6 @@ const DownloadButton: React.FC = () => {
       const apkRef = ref(storage, 'Apks/app-release.apk');
   
       const downloadURL = await getDownloadURL(apkRef);
-      
       const link = document.createElement('a');
       link.href = downloadURL;
       link.setAttribute('download', 'Nearhive.apk');
@@ -47,7 +46,7 @@ const DownloadButton: React.FC = () => {
 
 
     } catch (error) {
-      console.error("Error downloading file:", error);
+      console.error("Error downloading file --", error);
       alert("Failed to download the Nearhive app. Please try again later.");
     } finally {
       setDownloading(false);

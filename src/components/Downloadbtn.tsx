@@ -9,7 +9,7 @@ const DownloadButton: React.FC = () => {
   const handleDownload = async () => {
     try {
       setDownloading(true);
-      const apkRef = ref(storage, 'Apks/app-arm64-v8a-release.apk');
+      const apkRef = ref(storage, 'Apks/app-release.apk');
   
       const downloadURL = await getDownloadURL(apkRef);
       

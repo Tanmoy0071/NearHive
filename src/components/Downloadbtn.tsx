@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { getDownloadURL, ref } from 'firebase/storage';
-import { storage } from '@/app/config';
+import { db, storage } from '@/app/config';
+import { collection, doc, increment, setDoc, Timestamp } from 'firebase/firestore';
 
 
 const DownloadButton: React.FC = () => {
@@ -9,7 +10,7 @@ const DownloadButton: React.FC = () => {
   const handleDownload = async () => {
     try {
       setDownloading(true);
-      const apkRef = ref(storage, 'Apks/app-arm64-v8a-release.apk');
+      const apkRef = ref(storage, 'Apks/app-release.apk');
   
       const downloadURL = await getDownloadURL(apkRef);
       const link = document.createElement('a');
@@ -18,6 +19,13 @@ const DownloadButton: React.FC = () => {
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
+
+      await setDoc(doc(db, "Download Click ", "doc"), {
+        downloadCount : increment(1),
+        lastUpdated : Timestamp.now()
+      },{   merge : true   });
+
+
     } catch (error) {
       console.error("Error downloading file --", error);
       alert("Failed to download the Nearhive app. Please try again later.");

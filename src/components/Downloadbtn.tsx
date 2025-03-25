@@ -39,7 +39,7 @@ const DownloadButton: React.FC = () => {
 
       const ip = await getUserIp() ;
 
-      await setDoc(doc(db, "Download Click ", "doc"), {
+      await setDoc(doc(db, "Download Click", "doc"), {
         userIps : arrayUnion(ip) ,
         lastUpdated : Timestamp.now()
       },{   merge : true   });

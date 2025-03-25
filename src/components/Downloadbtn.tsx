@@ -1,11 +1,28 @@
 import { useState } from 'react';
 import { getDownloadURL, ref } from 'firebase/storage';
 import { db, storage } from '@/app/config';
-import { collection, doc, increment, setDoc, Timestamp } from 'firebase/firestore';
+import { arrayUnion, collection, doc, increment, setDoc, Timestamp } from 'firebase/firestore';
 
 
 const DownloadButton: React.FC = () => {
   const [downloading, setDownloading] = useState(false);
+
+  const getUserIp = async (): Promise<string> => {
+    try {
+      const response = await fetch("https://nearhive.in/server.php");
+      if (!response.ok) {
+        throw new Error("Failed to fetch IP");
+      }
+      const data: { ip: string } = await response.json();
+
+      return data.ip ;
+
+    } catch (error) {
+      console.error("Error fetching IP:", error);
+      return "";
+    }
+  };
+  
 
   const handleDownload = async () => {
     try {
@@ -21,8 +38,10 @@ const DownloadButton: React.FC = () => {
       link.click();
       document.body.removeChild(link);
 
+      const ip = await getUserIp() ;
+
       await setDoc(doc(db, "Download Click ", "doc"), {
-        downloadCount : increment(1),
+        userIps : arrayUnion(ip) ,
         lastUpdated : Timestamp.now()
       },{   merge : true   });
 
